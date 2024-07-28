@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:gainsboro ;
+    display: grid;
+    grid-template-columns: auto;
+    gap:10px;
+
+}
+.header_1{
+    background-color: rgb(123, 203, 216);
+    padding: 40px;
+    text-align: end;
+    padding-bottom: 10px;
+}
+.header_2{
+    background-color: white;
+    padding: 10px;
+}
+.list-item{
+    border-top: 1px solid rgb(133, 128, 128);
+
+}
+.list-item ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding:5px;
+   
+}
+.list-item ul a{
+    color: rgb(63, 60, 60);
+    text-decoration: none;
+    padding-right: 50px;
+}
+.list-item ul li a:hover,
+.list-item ul li a:active{
+ color:green;
+ border-bottom: 1px solid rgb(139, 61, 61);
+}
+
+.Box1{
+    
+    background-color: white;
+    border: 1px solid rgb(129, 125, 125);
+  
+   
+}
+.Box2{
+    background-color: white;
+    border: 1px solid rgb(129, 125, 125);
+    padding: 10px;
+}
+.Box3{
+    background-color: white;
+    border: 1px solid rgb(129, 125, 125);
+    padding: 10px;
+}
+.Box4{
+    background-color: white;
+    border: 1px solid rgb(129, 125, 125);
+}
+.p1{
+    color: rgb(132, 127, 127);
+}
+.p2{
+    color:rgb(162, 153, 153);
+}
+.link1{
+    text-decoration: none;
+    color: rgb(121, 114, 114);
+}
+.link2{
+    text-decoration: none;
+    color: black;
+}
+.overview{
+    color:rgb(145, 137, 137);
+}
+.Box4{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: gainsboro;
+    border: none;
+}
