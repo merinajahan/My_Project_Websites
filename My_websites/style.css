@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+#navigation{
+     background-image: linear-gradient(rgb(1, 6, 13), rgb(189, 60, 34));
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+#navigation > ul{
+     display: flex;
+     margin-right: 50px;
+}
+#navigation > ul > li{
+     list-style: none;
+     margin: 0px 5px;
+     padding: 15px 0px;
+}
+#navigation > ul > li > a{
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     padding: 16px 20px;
+     transition: 0.5s;
+}
+
+#navigation > ul > li:hover > a{
+     background-color:rgba(54, 48, 41, 0.671);
+}
+.logo > h2{
+     color: white;
+     margin-left: 80px;
+}
+.logoFirstLetter{
+     color: red;
+     font-size: 25px;
+}
+
+
+
+
+.dropdownMenu{
+    opacity: 0;
+    visibility: hidden;
+     background-color:rgba(54, 48, 41, 0.671);
+     background-color:;
+    text-align: center;
+    margin-top: 15px;
+    width: 190px;
+    position: absolute;
+    transition: 0.5s;
+    box-shadow: 10px 10px 8px black;
+    transform: scaleY(0);
+    transform-origin: top;
+    
+
+}
+.dropdownMenu > li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+.dropdownMenu > li:hover{
+    background-color: rgb(172, 34, 3);
+}
+.dropdownMenu > li:first-child{
+    border-top: 1px solid white;
+}
+.dropdownMenu > li > a{
+    text-decoration: none;
+    color: white;
+}
+#navigation > ul > li:hover > .dropdownMenu{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+/*.....................................................*/
+
+/* Hero area code start hare */
+
+#main-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.082), rgba(24, 24, 24, 0.596)), url('images/img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 90vh;
+}
+.header-container{
+    padding-top: 100px;
+}
+.header-container > h1{
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgba(192, 120, 21, 0.671);
+    font-size: 50px;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.header-container > button{
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: #1b1d1eb6;
+    color: white;
+    border-radius:10px;
+    border: 4px solid rgb(240, 18, 22);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-container > button:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.header-container > h4{
+    font-size: 100px;
+    color: rgb(173, 45, 45);
+}
+.header-container > h5{
+    font-size: 25px;
+    color: rgb(219, 32, 32);
+    margin-bottom: 50px;
+}
+.socilaIcon > a{
+    color: white;
+    text-decoration: none;
+}
+.socilaIcon > a > i{
+    width: 50px;
+    height: 50px;
+    line-height: 1.6;
+    margin: 10px 5px;
+    font-size: 30px;
+    background-color: rgb(37, 42, 37);
+    padding: 5px;
+    border: 2px solid rgb(148, 39, 39);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.socilaIcon > a > i:hover{
+    background-color: black;
+    border: 2px solid green;
+    transform: rotate(360deg);
+}
+
+/* first section code start hare */
+
+#first-container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+   
+}
+
+.first-design{
+    width: 300px;
+    text-align: center;
+    padding: 30px 10px;
+    transition: 0.5s;
+}
+.first-design > i{
+    font-size: 50px;
+}
+.first-design > h2{
+    margin: 15px 0;
+}
+.first-design:hover{
+    box-shadow: 3px 3px 10px gray;
+}
+.Knowledge{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+   
+    
+}
+
+
+
+/* Second section code start hare */
+
+.smartArea-title{
+    width: 250px;
+    margin: auto;
+    position: relative;
+}
+.smartArea-title > h2{
+    font-size: 40px;
+    text-align: center;
+}
+.smartArea-title > h2::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #830707;
+    top: 61px;
+    left: 75px;
+}
+.smart-area{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.smart-area-text{
+    width: 500px;
+}
+.smart-area-text > h2{
+    margin: 20px 0;
+}
+.smart-area-text > h4{
+    color: #830707;
+}
+.smart-area-text > a{
+    text-decoration: none;
+    background-color: #830707;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.smart-area-text > a:hover{
+    background-color: #420101;
+}
+
+
+/* Third section code start hare */
+
+#third-section{
+    background-color: #FAFAFA;
+}
+.services-area-title{
+    text-align: center;
+    padding: 40px 0 60px 0;
+}
+.services-area-title > h2{
+    font-size: 40px;
+}
+.each-services-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 60px;
+   
+}
+.services-area{
+    width: 1000px;
+    margin: auto;
+}
+.each-services{
+   
+    text-align: center;
+    padding: 30px 0;
+    transition: 0.5s;
+    border: 1px solid grey;
+    border-radius: 22px;
+}
+.each-services:hover{
+    background-color: white;
+}
+.each-services > i{
+    font-size: 40px;
+    color: #830707de;
+}
+.each-services > h3{
+    margin: 15px 0;
+}
+
+
+/* Testimonial section start */
+
+#five-section{
+    background-color: gray;
+}
+.testo-container{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.testimonial-title{
+    text-align: center;
+    padding: 50px 0;
+}
+.testimonial-title h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.testimonial-title h4{
+    color: gray;
+    letter-spacing: 0.3em;
+}
+
+.testo-singleCard-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.testo-singleCard{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.testo-image-div{
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.testo-image-div img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.testo-span{
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.testo-rattings{
+    color: #ffa534;
+    margin-top: 10px;
+}
